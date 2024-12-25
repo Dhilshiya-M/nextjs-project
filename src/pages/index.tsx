@@ -5,19 +5,10 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Geist, Geist_Mono } from "next/font/google";
 import EmailInput from "@/components/validation";
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-black-50 p-6">
